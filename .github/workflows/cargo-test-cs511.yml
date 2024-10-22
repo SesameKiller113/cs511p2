@@ -1,6 +1,8 @@
 name: CS511 AutoGrader
 
-on: push
+on: 
+  push:
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
